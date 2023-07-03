@@ -49,7 +49,7 @@ fun DetailScreen(navController: NavController, movieData: String? = "NoValuePass
 
                         Spacer(modifier = Modifier.width(10.dp))
                         Text(
-                            text = movieData.toString(),
+                            text = "Movies",
                             style = MaterialTheme.typography.headlineMedium,
                             color = MaterialTheme.colorScheme.onPrimary
                         )
